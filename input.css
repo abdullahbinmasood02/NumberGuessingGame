@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 45%;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 100%;
+    }
+  }
+}
